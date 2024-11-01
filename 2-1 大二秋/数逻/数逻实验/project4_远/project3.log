@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.29)  31 OCT 2024 16:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.29)  1 NOV 2024 16:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -455,47 +455,51 @@ File: 22.jpg Graphic file (type jpg)
 <use 22.jpg>
 Package pdftex.def Info: 22.jpg  used on input line 40.
 (pdftex.def)             Requested size: 445.9133pt x 298.50037pt.
-<RTL.png, id=95, 1924.94156pt x 1035.11719pt>
+<RTL.png, id=95, 1920.42468pt x 1025.33063pt>
 File: RTL.png Graphic file (type png)
 <use RTL.png>
 Package pdftex.def Info: RTL.png  used on input line 43.
-(pdftex.def)             Requested size: 445.9133pt x 239.77776pt.
+(pdftex.def)             Requested size: 445.9133pt x 238.074pt.
  [2 <./2.png> <./22.jpg>]
-<11.png, id=117, 420.06938pt x 804.75656pt>
+<11.png, id=117, 558.58687pt x 158.84344pt>
 File: 11.png Graphic file (type png)
 <use 11.png>
-Package pdftex.def Info: 11.png  used on input line 45.
-(pdftex.def)             Requested size: 278.69475pt x 533.91615pt.
- [3 <./RTL.png>]
-<12.png, id=124, 800.23969pt x 374.90062pt>
+Package pdftex.def Info: 11.png  used on input line 47.
+(pdftex.def)             Requested size: 250.82358pt x 71.32619pt.
+<111.png, id=118, 475.7775pt x 182.18062pt>
+File: 111.png Graphic file (type png)
+<use 111.png>
+Package pdftex.def Info: 111.png  used on input line 48.
+(pdftex.def)             Requested size: 250.82358pt x 96.04376pt.
+<12.png, id=120, 465.99094pt x 132.495pt>
 File: 12.png Graphic file (type png)
 <use 12.png>
-Package pdftex.def Info: 12.png  used on input line 47.
-(pdftex.def)             Requested size: 278.69475pt x 130.56503pt.
-<13.png, id=125, 351.56343pt x 369.63094pt>
+Package pdftex.def Info: 12.png  used on input line 52.
+(pdftex.def)             Requested size: 278.69475pt x 79.24286pt.
+<13.png, id=121, 168.63pt x 192.72pt>
 File: 13.png Graphic file (type png)
 <use 13.png>
-Package pdftex.def Info: 13.png  used on input line 49.
-(pdftex.def)             Requested size: 278.69475pt x 293.0148pt.
- [4 <./11.png> <./12.png>] [5 <./13.png>] (./project3.aux)
+Package pdftex.def Info: 13.png  used on input line 54.
+(pdftex.def)             Requested size: 278.69475pt x 318.51534pt.
+ [3 <./RTL.png> <./11.png> <./111.png> <./12.png>] [4 <./13.png>] (./project3.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/07/14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6692 strings out of 476023
- 119805 string characters out of 5790926
+ 6705 strings out of 476023
+ 120011 string characters out of 5790926
  1932190 words of memory out of 5000000
- 28563 multiletter control sequences out of 15000+600000
- 586234 words of font info for 136 fonts, out of 8000000 for 9000
+ 28576 multiletter control sequences out of 15000+600000
+ 587528 words of font info for 141 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  80i,6n,83p,799b,367s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><d:/TexLive/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/TexLive/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/TexLive/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on project3.pdf (5 pages, 1441554 bytes).
+Output written on project3.pdf (4 pages, 1424423 bytes).
 PDF statistics:
- 316 PDF objects out of 1000 (max. 8388607)
- 187 compressed objects within 2 object streams
+ 315 PDF objects out of 1000 (max. 8388607)
+ 185 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 220 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 225 words of extra memory for PDF output out of 10000 (max. 10000000)
 
