@@ -1,5 +1,0 @@
-vhdl xil_defaultlib  \
-"../../../../miniRV_axi.gen/sources_1/ip/axi_gpio_1/sim/axi_gpio_1.vhd" \
-
-# Do not sort compile order
-nosort

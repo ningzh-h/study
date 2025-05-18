@@ -1,1 +1,0 @@
---incr --debug typical --relax --mt 2  -L xil_defaultlib -L axi_bram_ctrl_v4_1_11 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot axi_bram_ctrl_0 xil_defaultlib.axi_bram_ctrl_0 xil_defaultlib.glbl -log elaborate.log
