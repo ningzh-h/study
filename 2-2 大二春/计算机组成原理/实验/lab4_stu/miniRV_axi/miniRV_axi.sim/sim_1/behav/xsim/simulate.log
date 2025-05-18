@@ -1,0 +1,31 @@
+Time resolution is 1 ps
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module soc_simu.DUT.U_mem.U_bram.inst.axi_mem_module.blk_mem_gen_v8_4_9_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+[20.310us] test_01 passed!
+[35.600us] test_02 passed!
+[54.670us] test_03 passed!
+[66.720us] test_04 passed!
+[78.050us] test_05 passed!
+[89.560us] test_06 passed!
+[100.890us] test_07 passed!
+[112.220us] test_08 passed!
+[117.070us] test_09 passed!
+[126.600us] test_10 passed!
+[130.550us] test_11 passed!
+[151.200us] test_12 passed!
+[170.450us] test_13 passed!
+[182.860us] test_14 passed!
+[202.650us] test_15 passed!
+[216.140us] test_16 passed!
+[236.290us] test_17 passed!
+[250.140us] test_18 passed!
+[269.930us] test_19 passed!
+[284.500us] test_20 passed!
+[305.910us] test_21 passed!
+[328.620us] test_22 passed!
+[348.410us] test_23 passed!
+[361.540us] test_24 passed!
+All tests passed!
+Total: 1972 instruction fetching, 26 memory access (18 RDs and 8 WRs)
+$finish called at time : 362540 ns : File "N:/Study/Coding/RISC-V/lab4_stu/miniRV_axi/miniRV_axi.srcs/sim_1/new/soc_simu.v" Line 185

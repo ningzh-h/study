@@ -1,0 +1,420 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Fri Apr 18 14:26:46 2025
+# Process ID         : 141400
+# Current directory  : N:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.runs/axi_crossbar_0_synth_1
+# Command line       : vivado.exe -log axi_crossbar_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source axi_crossbar_0.tcl
+# Log file           : N:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.runs/axi_crossbar_0_synth_1/axi_crossbar_0.vds
+# Journal file       : N:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.runs/axi_crossbar_0_synth_1\vivado.jou
+# Running On         : DESKTOP-862KP6D
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : AMD Ryzen 9 7945HX with Radeon Graphics        
+# CPU Frequency      : 2495 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 32
+# Host memory        : 16308 MB
+# Swap memory        : 16685 MB
+# Total Virtual      : 32993 MB
+# Available Virtual  : 9485 MB
+#-----------------------------------------------------------
+source axi_crossbar_0.tcl -notrace
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: axi_crossbar_0
+Command: synth_design -top axi_crossbar_0 -part xc7a100tfgg484-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tfgg484-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 164064
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1311.777 ; gain = 468.238
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/synth/axi_crossbar_0.v:213]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/synth/axi_crossbar_0.v:215]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/synth/axi_crossbar_0.v:216]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/synth/axi_crossbar_0.v:218]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/synth/axi_crossbar_0.v:219]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/synth/axi_crossbar_0.v:221]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_0' [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/synth/axi_crossbar_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_34_axi_crossbar' [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:4871]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_34_crossbar' [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:2232]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_34_si_transactor' [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_34_addr_decoder' [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:790]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_comparator_static' [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2119]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_carry_and' [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/generic_baseblocks_v2_1_vl_rfs.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_carry_and' (0#1) [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/generic_baseblocks_v2_1_vl_rfs.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_comparator_static' (0#1) [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2119]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_comparator_static__parameterized0' [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2119]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_comparator_static__parameterized0' (0#1) [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2119]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_comparator_static__parameterized1' [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2119]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_comparator_static__parameterized1' (0#1) [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2119]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_comparator_static__parameterized2' [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2119]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_comparator_static__parameterized2' (0#1) [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2119]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_34_addr_decoder' (0#1) [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:790]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_32_axic_srl_fifo' [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_32_ndeep_srl' [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_data_fifo_v2_1_vl_rfs.v:1129]
+INFO: [Synth 8-6157] synthesizing module 'SRLC32E' [D:/Applications/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:149195]
+INFO: [Synth 8-6155] done synthesizing module 'SRLC32E' (0#1) [D:/Applications/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:149195]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_32_ndeep_srl' (0#1) [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_data_fifo_v2_1_vl_rfs.v:1129]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_32_axic_srl_fifo' (0#1) [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_mux_enc' [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2436]
+INFO: [Synth 8-6157] synthesizing module 'MUXF7' [D:/Applications/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:90866]
+INFO: [Synth 8-6155] done synthesizing module 'MUXF7' (0#1) [D:/Applications/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:90866]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_mux_enc' (0#1) [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2436]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_34_si_transactor' (0#1) [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_34_si_transactor__parameterized0' [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_mux_enc__parameterized0' [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2436]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_mux_enc__parameterized0' (0#1) [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2436]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_34_si_transactor__parameterized0' (0#1) [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_34_splitter' [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:4451]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_34_splitter' (0#1) [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:4451]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_34_wdata_router' [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:4724]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_32_axic_reg_srl_fifo' [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_data_fifo_v2_1_vl_rfs.v:884]
+INFO: [Synth 8-155] case statement is not full and has no default [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_data_fifo_v2_1_vl_rfs.v:982]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_32_axic_reg_srl_fifo' (0#1) [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_data_fifo_v2_1_vl_rfs.v:884]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_34_wdata_router' (0#1) [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:4724]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_34_wdata_mux' [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:4550]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_34_wdata_mux' (0#1) [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:4550]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_33_axi_register_slice' [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_register_slice_v2_1_vl_rfs.v:3721]
+INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_infrastructure_v1_1_vl_rfs.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' (0#1) [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_infrastructure_v1_1_vl_rfs.v:59]
+INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_infrastructure_v1_1_vl_rfs.v:473]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' (0#1) [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_infrastructure_v1_1_vl_rfs.v:473]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice' [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice' (0#1) [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice__parameterized0' [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice__parameterized0' (0#1) [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice__parameterized1' [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice__parameterized1' (0#1) [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice__parameterized2' [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice__parameterized2' (0#1) [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_33_axi_register_slice' (0#1) [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_register_slice_v2_1_vl_rfs.v:3721]
+WARNING: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_33_axi_register_slice' is unconnected for instance 'reg_slice_mi' [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+WARNING: [Synth 8-7023] instance 'reg_slice_mi' of module 'axi_register_slice_v2_1_33_axi_register_slice' has 93 connections declared, but only 92 given [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+WARNING: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_33_axi_register_slice' is unconnected for instance 'reg_slice_mi' [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+WARNING: [Synth 8-7023] instance 'reg_slice_mi' of module 'axi_register_slice_v2_1_33_axi_register_slice' has 93 connections declared, but only 92 given [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+WARNING: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_33_axi_register_slice' is unconnected for instance 'reg_slice_mi' [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+WARNING: [Synth 8-7023] instance 'reg_slice_mi' of module 'axi_register_slice_v2_1_33_axi_register_slice' has 93 connections declared, but only 92 given [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+WARNING: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_33_axi_register_slice' is unconnected for instance 'reg_slice_mi' [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+WARNING: [Synth 8-7023] instance 'reg_slice_mi' of module 'axi_register_slice_v2_1_33_axi_register_slice' has 93 connections declared, but only 92 given [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_32_axic_srl_fifo__parameterized0' [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_32_axic_srl_fifo__parameterized0' (0#1) [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_34_wdata_mux__parameterized0' [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:4550]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_34_wdata_mux__parameterized0' (0#1) [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:4550]
+WARNING: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_33_axi_register_slice' is unconnected for instance 'reg_slice_mi' [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+WARNING: [Synth 8-7023] instance 'reg_slice_mi' of module 'axi_register_slice_v2_1_33_axi_register_slice' has 93 connections declared, but only 92 given [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_34_decerr_slave' [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:3493]
+INFO: [Synth 8-155] case statement is not full and has no default [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:3626]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_34_decerr_slave' (0#1) [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:3493]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_34_addr_arbiter' [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:420]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_34_addr_arbiter' (0#1) [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:420]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_34_crossbar' (0#1) [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:2232]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_34_axi_crossbar' (0#1) [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:4871]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_0' (0#1) [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/synth/axi_crossbar_0.v:53]
+WARNING: [Synth 8-6014] Unused sequential element areset_d1_reg was removed.  [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_data_fifo_v2_1_vl_rfs.v:747]
+WARNING: [Synth 8-6014] Unused sequential element S_READY_i_reg was removed.  [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_data_fifo_v2_1_vl_rfs.v:786]
+WARNING: [Synth 8-6014] Unused sequential element gen_single_thread.gen_debug_r_single_thread.debug_r_beat_cnt_i_reg was removed.  [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:4184]
+WARNING: [Synth 8-6014] Unused sequential element gen_single_thread.active_id_reg was removed.  [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:4142]
+WARNING: [Synth 8-6014] Unused sequential element gen_single_thread.gen_debug_r_single_thread.debug_r_beat_cnt_i_reg was removed.  [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:4184]
+WARNING: [Synth 8-6014] Unused sequential element gen_single_thread.active_id_reg was removed.  [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:4142]
+WARNING: [Synth 8-6014] Unused sequential element gen_master_slots[0].gen_mi_write.gen_debug_w.debug_w_beat_cnt_i_reg was removed.  [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:2991]
+WARNING: [Synth 8-6014] Unused sequential element gen_master_slots[1].gen_mi_write.gen_debug_w.debug_w_beat_cnt_i_reg was removed.  [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:2991]
+WARNING: [Synth 8-6014] Unused sequential element gen_master_slots[2].gen_mi_write.gen_debug_w.debug_w_beat_cnt_i_reg was removed.  [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:2991]
+WARNING: [Synth 8-6014] Unused sequential element gen_master_slots[3].gen_mi_write.gen_debug_w.debug_w_beat_cnt_i_reg was removed.  [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:2991]
+WARNING: [Synth 8-6014] Unused sequential element gen_master_slots[4].gen_mi_write.gen_debug_w.debug_w_beat_cnt_i_reg was removed.  [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:2991]
+WARNING: [Synth 8-7129] Port ACLK in module axi_register_slice_v2_1_33_axic_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ARESET in module axi_register_slice_v2_1_33_axic_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLK in module axi_register_slice_v2_1_33_axic_register_slice__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ARESET in module axi_register_slice_v2_1_33_axic_register_slice__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_buser[0] in module axi_infrastructure_v1_1_0_vector2axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_ruser[0] in module axi_infrastructure_v1_1_0_vector2axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awuser[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wid[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wuser[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_aruser[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk2x in module axi_register_slice_v2_1_33_axi_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLK in module axi_crossbar_v2_1_34_wdata_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ARESET in module axi_crossbar_v2_1_34_wdata_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ASELECT[0] in module axi_crossbar_v2_1_34_wdata_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AVALID in module axi_crossbar_v2_1_34_wdata_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[1] in module axi_crossbar_v2_1_34_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[0] in module axi_crossbar_v2_1_34_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ABURST[1] in module axi_crossbar_v2_1_34_si_transactor__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ABURST[0] in module axi_crossbar_v2_1_34_si_transactor__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ABURST[1] in module axi_crossbar_v2_1_34_si_transactor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ABURST[0] in module axi_crossbar_v2_1_34_si_transactor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWID[0] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WID[0] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARID[0] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awid[0] in module axi_crossbar_v2_1_34_axi_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awuser[0] in module axi_crossbar_v2_1_34_axi_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wid[0] in module axi_crossbar_v2_1_34_axi_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wuser[0] in module axi_crossbar_v2_1_34_axi_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arid[0] in module axi_crossbar_v2_1_34_axi_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_aruser[0] in module axi_crossbar_v2_1_34_axi_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_buser[3] in module axi_crossbar_v2_1_34_axi_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_buser[2] in module axi_crossbar_v2_1_34_axi_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_buser[1] in module axi_crossbar_v2_1_34_axi_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_buser[0] in module axi_crossbar_v2_1_34_axi_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_ruser[3] in module axi_crossbar_v2_1_34_axi_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_ruser[2] in module axi_crossbar_v2_1_34_axi_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_ruser[1] in module axi_crossbar_v2_1_34_axi_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_ruser[0] in module axi_crossbar_v2_1_34_axi_crossbar is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1563.695 ; gain = 720.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1563.695 ; gain = 720.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1563.695 ; gain = 720.156
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.041 . Memory (MB): peak = 1563.695 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 42 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/axi_crossbar_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [n:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.gen/sources_1/ip/axi_crossbar_0/axi_crossbar_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [N:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.runs/axi_crossbar_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [N:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.runs/axi_crossbar_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1650.012 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.042 . Memory (MB): peak = 1650.191 ; gain = 0.180
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1650.191 ; gain = 806.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tfgg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1650.191 ; gain = 806.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  N:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.runs/axi_crossbar_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1650.191 ; gain = 806.652
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'axi_data_fifo_v2_1_32_axic_reg_srl_fifo'
+INFO: [Synth 8-802] inferred FSM for state register 'gen_axi.write_cs_reg' in module 'axi_crossbar_v2_1_34_decerr_slave'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                              100 |                               10
+                     ONE |                              010 |                               11
+                     TWO |                              001 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'axi_data_fifo_v2_1_32_axic_reg_srl_fifo'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+            P_WRITE_IDLE |                              001 |                               00
+            P_WRITE_DATA |                              010 |                               01
+            P_WRITE_RESP |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_axi.write_cs_reg' using encoding 'one-hot' in module 'axi_crossbar_v2_1_34_decerr_slave'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1650.191 ; gain = 806.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    8 Bit       Adders := 3     
+	   2 Input    3 Bit       Adders := 8     
+	   2 Input    2 Bit       Adders := 11    
+	   2 Input    1 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 8     
++---Registers : 
+	               64 Bit    Registers := 2     
+	               36 Bit    Registers := 10    
+	                8 Bit    Registers := 3     
+	                5 Bit    Registers := 4     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 8     
+	                2 Bit    Registers := 22    
+	                1 Bit    Registers := 45    
++---Muxes : 
+	   2 Input   40 Bit        Muxes := 10    
+	   2 Input   36 Bit        Muxes := 10    
+	   2 Input    8 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 2     
+	   2 Input    4 Bit        Muxes := 2     
+	   2 Input    3 Bit        Muxes := 14    
+	   3 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 20    
+	   2 Input    1 Bit        Muxes := 47    
+	   3 Input    1 Bit        Muxes := 11    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port s_axi_awid[0] in module axi_crossbar_v2_1_34_axi_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awuser[0] in module axi_crossbar_v2_1_34_axi_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wid[0] in module axi_crossbar_v2_1_34_axi_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wuser[0] in module axi_crossbar_v2_1_34_axi_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arid[0] in module axi_crossbar_v2_1_34_axi_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_aruser[0] in module axi_crossbar_v2_1_34_axi_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_buser[3] in module axi_crossbar_v2_1_34_axi_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_buser[2] in module axi_crossbar_v2_1_34_axi_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_buser[1] in module axi_crossbar_v2_1_34_axi_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_buser[0] in module axi_crossbar_v2_1_34_axi_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_ruser[3] in module axi_crossbar_v2_1_34_axi_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_ruser[2] in module axi_crossbar_v2_1_34_axi_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_ruser[1] in module axi_crossbar_v2_1_34_axi_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_ruser[0] in module axi_crossbar_v2_1_34_axi_crossbar is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1650.191 ; gain = 806.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1650.191 ; gain = 806.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1691.539 ; gain = 848.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1694.863 ; gain = 851.324
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1874.031 ; gain = 1030.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1874.031 ; gain = 1030.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1874.031 ; gain = 1030.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1874.031 ; gain = 1030.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1874.031 ; gain = 1030.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1874.031 ; gain = 1030.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |LUT1    |     5|
+|2     |LUT2    |    37|
+|3     |LUT3    |   173|
+|4     |LUT4    |    46|
+|5     |LUT5    |    73|
+|6     |LUT6    |   106|
+|7     |MUXF7   |    38|
+|8     |SRLC32E |     3|
+|9     |FDRE    |   511|
+|10    |FDSE    |     6|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1874.031 ; gain = 1030.492
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 15 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:24 . Memory (MB): peak = 1874.031 ; gain = 943.996
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1874.031 ; gain = 1030.492
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1874.031 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 38 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1877.578 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: c68caa90
+INFO: [Common 17-83] Releasing license: Synthesis
+88 Infos, 80 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1877.578 ; gain = 1233.285
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1877.578 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'N:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.runs/axi_crossbar_0_synth_1/axi_crossbar_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP axi_crossbar_0, cache-ID = 478340ec6f27fcf1
+INFO: [Coretcl 2-1174] Renamed 31 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1877.578 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'N:/Study/Coding/RISC-V/lab2_stu/miniRV_axi/miniRV_axi.runs/axi_crossbar_0_synth_1/axi_crossbar_0.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file axi_crossbar_0_utilization_synth.rpt -pb axi_crossbar_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 18 14:27:22 2025...

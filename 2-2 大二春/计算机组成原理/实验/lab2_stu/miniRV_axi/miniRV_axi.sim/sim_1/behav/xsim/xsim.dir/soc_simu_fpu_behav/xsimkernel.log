@@ -1,0 +1,7 @@
+Running: xsim.dir/soc_simu_fpu_behav/xsimk.exe -simmode gui -wdb soc_simu_fpu_behav.wdb -simrunnum 0 -socket 61068
+Design successfully loaded
+Design Loading Memory Usage: 42132 KB (Peak: 42132 KB)
+Design Loading CPU Usage: 655 ms
+Simulation completed
+Simulation Memory Usage: 56544 KB (Peak: 56544 KB)
+Simulation CPU Usage: 1359 ms

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="soc_simu_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi_bram_ctrl_funcs" />
+            <top_module name="glbl" />
+            <top_module name="ipif_pkg" />
+            <top_module name="soc_simu" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="87630000fs"></ZoomStartTime>
+      <ZoomEndTime time="481630001fs"></ZoomEndTime>
+      <Cursor1Time time="179630000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="262"></NameColumnWidth>
+      <ValueColumnWidth column_width="99"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/soc_simu/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_simu/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_simu/led" type="array">
+      <obj_property name="ElementShortName">led[31:0]</obj_property>
+      <obj_property name="ObjectShortName">led[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group82" type="group">
+      <obj_property name="label">ICache_Interface</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_icache/inst_rreq" type="logic">
+         <obj_property name="ElementShortName">inst_rreq</obj_property>
+         <obj_property name="ObjectShortName">inst_rreq</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_icache/inst_addr" type="array">
+         <obj_property name="ElementShortName">inst_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">inst_addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_icache/inst_valid" type="logic">
+         <obj_property name="ElementShortName">inst_valid</obj_property>
+         <obj_property name="ObjectShortName">inst_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_icache/inst_out" type="array">
+         <obj_property name="ElementShortName">inst_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">inst_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_icache/dev_rrdy" type="logic">
+         <obj_property name="ElementShortName">dev_rrdy</obj_property>
+         <obj_property name="ObjectShortName">dev_rrdy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_icache/cpu_ren" type="array">
+         <obj_property name="ElementShortName">cpu_ren[3:0]</obj_property>
+         <obj_property name="ObjectShortName">cpu_ren[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_icache/cpu_raddr" type="array">
+         <obj_property name="ElementShortName">cpu_raddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cpu_raddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_icache/dev_rvalid" type="logic">
+         <obj_property name="ElementShortName">dev_rvalid</obj_property>
+         <obj_property name="ObjectShortName">dev_rvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_icache/dev_rdata" type="array">
+         <obj_property name="ElementShortName">dev_rdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">dev_rdata[255:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/soc_simu/DUT/U_cpu/U_icache/hit" type="logic">
+      <obj_property name="ElementShortName">hit</obj_property>
+      <obj_property name="ObjectShortName">hit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_simu/ifetch_cnt" type="array">
+      <obj_property name="ElementShortName">ifetch_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ifetch_cnt[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group99" type="group">
+      <obj_property name="label">DCache_Interface</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_dcache/data_ren" type="array">
+         <obj_property name="ElementShortName">data_ren[3:0]</obj_property>
+         <obj_property name="ObjectShortName">data_ren[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_dcache/data_addr" type="array">
+         <obj_property name="ElementShortName">data_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_dcache/data_valid" type="logic">
+         <obj_property name="ElementShortName">data_valid</obj_property>
+         <obj_property name="ObjectShortName">data_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_dcache/data_rdata" type="array">
+         <obj_property name="ElementShortName">data_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_dcache/data_wen" type="array">
+         <obj_property name="ElementShortName">data_wen[3:0]</obj_property>
+         <obj_property name="ObjectShortName">data_wen[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_dcache/data_wdata" type="array">
+         <obj_property name="ElementShortName">data_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_dcache/data_wresp" type="logic">
+         <obj_property name="ElementShortName">data_wresp</obj_property>
+         <obj_property name="ObjectShortName">data_wresp</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_dcache/dev_wrdy" type="logic">
+         <obj_property name="ElementShortName">dev_wrdy</obj_property>
+         <obj_property name="ObjectShortName">dev_wrdy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_dcache/cpu_wen" type="array">
+         <obj_property name="ElementShortName">cpu_wen[3:0]</obj_property>
+         <obj_property name="ObjectShortName">cpu_wen[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_dcache/cpu_waddr" type="array">
+         <obj_property name="ElementShortName">cpu_waddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cpu_waddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_dcache/cpu_wdata" type="array">
+         <obj_property name="ElementShortName">cpu_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cpu_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_dcache/dev_rrdy" type="logic">
+         <obj_property name="ElementShortName">dev_rrdy</obj_property>
+         <obj_property name="ObjectShortName">dev_rrdy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_dcache/cpu_ren" type="array">
+         <obj_property name="ElementShortName">cpu_ren[3:0]</obj_property>
+         <obj_property name="ObjectShortName">cpu_ren[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_dcache/cpu_raddr" type="array">
+         <obj_property name="ElementShortName">cpu_raddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cpu_raddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_dcache/dev_rvalid" type="logic">
+         <obj_property name="ElementShortName">dev_rvalid</obj_property>
+         <obj_property name="ObjectShortName">dev_rvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_dcache/dev_rdata" type="array">
+         <obj_property name="ElementShortName">dev_rdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">dev_rdata[255:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/soc_simu/memRd_cnt" type="array">
+      <obj_property name="ElementShortName">memRd_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">memRd_cnt[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_simu/memWr_cnt" type="array">
+      <obj_property name="ElementShortName">memWr_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">memWr_cnt[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group168" type="group">
+      <obj_property name="label">AXI_Read</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_aximaster/m_axi_araddr" type="array">
+         <obj_property name="ElementShortName">m_axi_araddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_araddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_aximaster/m_axi_arlen" type="array">
+         <obj_property name="ElementShortName">m_axi_arlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_aximaster/m_axi_arsize" type="array">
+         <obj_property name="ElementShortName">m_axi_arsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_aximaster/m_axi_arburst" type="array">
+         <obj_property name="ElementShortName">m_axi_arburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_aximaster/m_axi_arvalid" type="logic">
+         <obj_property name="ElementShortName">m_axi_arvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_aximaster/m_axi_arready" type="logic">
+         <obj_property name="ElementShortName">m_axi_arready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_aximaster/m_axi_rready" type="logic">
+         <obj_property name="ElementShortName">m_axi_rready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_rready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_aximaster/m_axi_rdata" type="array">
+         <obj_property name="ElementShortName">m_axi_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_aximaster/m_axi_rlast" type="logic">
+         <obj_property name="ElementShortName">m_axi_rlast</obj_property>
+         <obj_property name="ObjectShortName">m_axi_rlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_aximaster/m_axi_rvalid" type="logic">
+         <obj_property name="ElementShortName">m_axi_rvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_rvalid</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group156" type="group">
+      <obj_property name="label">AXI_Write</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_aximaster/m_axi_awaddr" type="array">
+         <obj_property name="ElementShortName">m_axi_awaddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awaddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_aximaster/m_axi_awlen" type="array">
+         <obj_property name="ElementShortName">m_axi_awlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_aximaster/m_axi_awsize" type="array">
+         <obj_property name="ElementShortName">m_axi_awsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_aximaster/m_axi_awburst" type="array">
+         <obj_property name="ElementShortName">m_axi_awburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_aximaster/m_axi_awvalid" type="logic">
+         <obj_property name="ElementShortName">m_axi_awvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_aximaster/m_axi_awready" type="logic">
+         <obj_property name="ElementShortName">m_axi_awready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_aximaster/m_axi_wdata" type="array">
+         <obj_property name="ElementShortName">m_axi_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_aximaster/m_axi_wstrb" type="array">
+         <obj_property name="ElementShortName">m_axi_wstrb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_wstrb[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_aximaster/m_axi_wlast" type="logic">
+         <obj_property name="ElementShortName">m_axi_wlast</obj_property>
+         <obj_property name="ObjectShortName">m_axi_wlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_aximaster/m_axi_wvalid" type="logic">
+         <obj_property name="ElementShortName">m_axi_wvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_wvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_aximaster/m_axi_wready" type="logic">
+         <obj_property name="ElementShortName">m_axi_wready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_wready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_simu/DUT/U_cpu/U_aximaster/m_axi_bvalid" type="logic">
+         <obj_property name="ElementShortName">m_axi_bvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_bvalid</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
